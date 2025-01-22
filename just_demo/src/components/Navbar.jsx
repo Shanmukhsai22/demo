@@ -44,7 +44,7 @@ function Navbar() {
   return (
     <Nav>
       <NavContainer>
-        <Logo to="/">VideoHub</Logo>
+        <Logo to="/">WeddingHub</Logo>
         <NavLinks>
           {user ? (
             <>
