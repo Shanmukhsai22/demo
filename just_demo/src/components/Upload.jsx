@@ -59,8 +59,8 @@ const UploadBox = styled(Box)`
   transition: all 0.3s ease;
 
   &:hover {
-    border-color: #1976d2;
-    background: rgba(25, 118, 210, 0.04);
+    border-color: #FF1493;
+     background: rgba(255, 20, 147, 0.04);
   }
 `;
 

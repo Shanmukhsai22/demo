@@ -20,7 +20,7 @@ const NavContainer = styled.div`
 `
 
 const Logo = styled(Link)`
-  color: #FF0000;
+  color: #FF1493;
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: bold;
@@ -49,16 +49,25 @@ function Navbar() {
           {user ? (
             <>
               <Link to="/upload">
-                <Button variant="contained" color="primary">
+                <Button variant="contained" sx={{ backgroundColor: '#FF1493' }}>
                   Upload
                 </Button>
               </Link>
-              <Button onClick={handleSignOut}>Sign Out</Button>
+              <Button onClick={handleSignOut} sx={{ color: "#FF1493" }} >Sign Out</Button>
             </>
           ) : (
             <>
-              <Button onClick={() => navigate('/login')}>Login</Button>
-              <Button onClick={() => navigate('/register')} variant="contained">
+              <Button 
+                onClick={() => navigate('/login')} 
+                sx={{ color: '#FF1493' }}
+              >
+                Login
+              </Button>
+              <Button 
+                onClick={() => navigate('/register')} 
+                variant="contained" 
+                sx={{ backgroundColor: '#FF1493', color: 'white' }}
+              >
                 Register
               </Button>
             </>

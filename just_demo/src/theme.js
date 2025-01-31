@@ -4,9 +4,9 @@ import { createTheme } from '@mui/material';
 export const theme = createTheme({
   palette: {
     primary: {
-      main: '#FF0000', // YouTube red
-      light: '#ff4444',
-      dark: '#cc0000',
+      main: '#FF1493', // Deep Pink
+      light: '#FF69B4', // A lighter shade of pink
+      dark: '#C71585',
     },
     secondary: {
       main: '#606060',
